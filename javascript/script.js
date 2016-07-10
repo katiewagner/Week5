@@ -2,9 +2,8 @@
 
 var answer = 0;
 $("button").click(function(event) {
-	var celcius = $('#celcius').val();
-	//console.log(celcius);
-	var answer= celcius*(9/5)+32;
-	//$('#farhenheit').html(answer);
-	console.log(answer);
+	var celsius = $('#celsius').val();
+	var answer= celsius*(9/5)+32;
+	$('#fahrenheit').attr("value", answer+" degrees Fahrenheit");
+	//console.log(answer);
 });
