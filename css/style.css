@@ -1,0 +1,31 @@
+html {
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 62.5%;
+}
+div {
+	padding: 2em;
+}
+button {
+	border-radius: 5px;
+	background-color: #a8a8a0;
+	color: #317873;
+	font-weight: bold;
+}
+input {
+	text-align: center;
+	margin: 2em;
+}
+img {
+	border-radius: 30px;
+	width: 50%;
+	height: auto;
+	display: block;
+	margin: auto;
+}
+p {
+	font-size: 1.5em;
+}
+/*#weatherCaption {
+	display: none;
+}*/
